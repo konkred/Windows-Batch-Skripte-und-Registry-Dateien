@@ -1,7 +1,7 @@
 Windows Registry Editor Version 5.00
 
 [HKEY_CLASSES_ROOT\*\shell\runas]
-@="Take Ownership"
+@="Eigentümerschaft übernehmen"
 "NoWorkingDirectory"=""
 
 [HKEY_CLASSES_ROOT\*\shell\runas\command]
@@ -9,7 +9,7 @@ Windows Registry Editor Version 5.00
 "IsolatedCommand"="cmd.exe /c takeown /f \"%1\" && icacls \"%1\" /grant administratoren:F"
 
 [HKEY_CLASSES_ROOT\Directory\shell\runas]
-@="Take Ownership"
+@="Eigentümerschaft übernehmen"
 "NoWorkingDirectory"=""
 
 [HKEY_CLASSES_ROOT\Directory\shell\runas\command]
